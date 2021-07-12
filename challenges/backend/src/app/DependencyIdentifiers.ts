@@ -1,3 +1,5 @@
 export const DependencyIdentifier = {
-    LOGGER: "logger"
+  LOGGER: "logger",
+  USER: "user",
+  CarOnSaleClient: "CarOnSaleClient",
 };
