@@ -16,4 +16,5 @@
 export interface ICarOnSaleClient {
   getRunningAuctions(): Promise<any /* TODO: Introduce a type */>;
   //param: IRunningAuctions
+  mappedResponse(mappedResponse: any): any;
 }
