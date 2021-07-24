@@ -1,4 +1,13 @@
+const answer = `the number of running auctions is : 8
+
+        Auction number 0:  the Avrage number of bids : 0  the average percentage of the auction progress 62.1%
+        Auction number 1:  the Avrage number of bids : 0  the average percentage of the auction progress 83.2%
+        Auction number 2:  the Avrage number of bids : 0  the average percentage of the auction progress 2.0%
+        Auction number 3:  the Avrage number of bids : 0  the average percentage of the auction progress 1.5%
+        Auction number 4:  the Avrage number of bids : 0  the average percentage of the auction progress 11.7%
+        Auction number 5:  the Avrage number of bids : 0  the average percentage of the auction progress 4.7%
+        Auction number 6:  the Avrage number of bids : 0  the average percentage of the auction progress 4.6%
+        Auction number 7:  the Avrage number of bids : 0  the average percentage of the auction progress 22.2%`;
 export default {
-  AuctionsNum:
-    "number of running auctions is : 22 the Avrage number of bets : 83.3,72.0,8.3,6.7,20.0,21.7,15.2,22.2,12.8,7.1,2.7,7.6,83.2,2.0,1.5,11.7,1.3,4.2,1.5,4.7,4.6,22.2",
+  AuctionsNum: answer,
 };

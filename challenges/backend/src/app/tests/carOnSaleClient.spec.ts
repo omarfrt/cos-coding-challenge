@@ -12,7 +12,7 @@ import { CarOnSaleClient } from "../services/CarOnSaleClient/classes/CarOnSalesC
 const Auctions = new CarOnSaleClient(user, logger);
 
 describe("CarOnSale Client", function () {
-  it("should return auction percentage + count num of running auctions", async function () {
+  it("should return: number of running auction, average number of bids, percentage of the auction progress", async function () {
     expect(await Auctions.mappedResponse(data)).to.equal(
       returned.default.AuctionsNum
     );

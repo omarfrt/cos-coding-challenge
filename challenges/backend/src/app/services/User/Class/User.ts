@@ -1,5 +1,5 @@
 import { injectable } from "inversify";
-global.fetch = require("node-fetch");
+const fetch = require("node-fetch");
 import * as Endpoints from "../../../endpoints";
 import { IUser, IAuthenticationResult } from "../interface/IUser";
 
